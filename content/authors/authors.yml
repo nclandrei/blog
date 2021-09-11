@@ -1,0 +1,10 @@
+- name: Andrei-Mihai Nicolae
+  bio: |
+    Written by Andrei-Mihai Nicolae who lives and works in Bucharest building useful things.
+    You should follow him on Twitter.
+  avatar: ./avatars/profile_picture.jpeg
+  featured: true
+  social:
+    - url: https://stackoverflow.com/users/2923114/anicolae
+    - url: https://github.com/nclandrei
+    - url: https://twitter.com/amnicolae
