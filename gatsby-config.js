@@ -1,3 +1,5 @@
+require('dotenv').config();
+
 module.exports = {
   siteMetadata: {
     title: `Andrei's Blog`,
@@ -20,5 +22,20 @@ module.exports = {
       },
     ],
   },
-  plugins: ['@narative/gatsby-theme-novela'],
+  plugins: [
+    {
+      resolve: `gatsby-plugin-netlify-cms`,
+      options: {
+      },
+    },
+    {
+      resolve: '@narative/gatsby-theme-novela',
+      options: {
+        sources: {
+          local: true,
+          contentful: false,
+        }
+      }
+    }
+  ]
 };
